@@ -10,10 +10,12 @@
 - ```배열은 대괄호[ ], 객체는 중괄호 { }```
 
 - 객체를 생성하는 방법:
-  ```var coworkers = {
+  ```
+  var coworkers = {
      "programmer" : "Dan",
      "designer" : "Sam"
-    };```
+    };
+    ```
 
 - 객체를 추가하는 방법: 변수에 객체 이름을 .으로 추가해서 value 값을 준다.
   ```coworkers.bookkeeper = "Tom";```
@@ -21,4 +23,4 @@
 - 객체명이 띄어쓰기를 필요로 하는 경우: . 대신 대괄호를 이용
 
  ```coworkers["data scientist"] = "Mac"; <br>
-    document.write("data scientist: "  + coworkers["data scientist"] + "<br>");```
+    document.write("data scientist: "  + coworkers["data scientist"] + "<br>");
